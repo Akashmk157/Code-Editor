@@ -1,9 +1,12 @@
 {
-  "name": "code-editor",
+  "name": "clear",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node":"14.x"
+  },
   "scripts": {
-    "server": "nodemon Api.js"
+    "server": "node Api.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +18,13 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akashmk157/Code-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Akashmk157/Code-Editor/issues"
+  },
+  "homepage": "https://github.com/Akashmk157/Code-Editor#readme",
   "description": ""
 }
